@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow:300,400,500,600,700,900|Muli:300,400,500,600,700,800,900&display=swap");
 
+.clickLink a {
+    color: Highlight;
+    font-family: Barlow ,sans-serif;
+    font-weight: 500;
+    font-size: 15px
+}
+    .clickLink a:hover {
+        color: #fb246a
+    }
+
 .white-bg {
     background: #ffffff
 }
