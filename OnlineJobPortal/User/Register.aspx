@@ -107,3 +107,6 @@
             </div>
     </section>
 </asp:Content>
+
+
+<!-- Page displaying New Registerations -->
