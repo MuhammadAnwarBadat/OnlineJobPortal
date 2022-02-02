@@ -62,7 +62,7 @@
                 </div>
     
                 <div class="row">
-                    <div class="col-12 pb=20">
+                    <div class="col-12 pb-20">
                         <asp:Label ID="lblMsg" runat="server" Visible="false"></asp:Label>
                     </div>
                     <div class="col-12">
