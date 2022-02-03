@@ -31,7 +31,7 @@
                                         <label>Password</label>
                                     <asp:TextBox ID="txtPassword" runat="server" CssClass="form-control" placeholder="Enter Password" 
                                         TextMode="Password" required></asp:TextBox>
-                                    </div>
+                                    </div>  
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
@@ -81,7 +81,7 @@
                                         <asp:TextBox ID="txtEmail" runat="server" CssClass="form-control" placeholder="Enter Email" required
                                             TextMode="Email"></asp:TextBox>
                                     </div>
-                                </div>
+                                </div>  
                                 <div class="col-12">
                                     <div class="form-group">
 <%--                                        <input class="form-control" runat="server" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Enter Subject" required>--%>
@@ -98,7 +98,7 @@
                                 </div>
                             </div>
                             <div class="form-group mt-3">
-                                    <asp:Button ID="btnRegister" runat="server" Text="Register" CssClass="button button-contactForm boxed-btn" OnClick="btnRegister_Click"/>
+                                    <asp:Button ID="btnRegister" runat="server" Text="Register" CssClass="button button-contactForm boxed-btn mr-4" OnClick="btnRegister_Click"/>
                                 <span class="clickLink"><a href="../User/Login.aspx">Already Registered? Click Here..</a></span>
                             </div>
                           </div>
@@ -107,6 +107,3 @@
             </div>
     </section>
 </asp:Content>
-
-
-<!-- Page displaying New Registerations -->
